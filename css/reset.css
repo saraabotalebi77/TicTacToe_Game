@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing : border-box;
+}
+html{
+    font-size : 62.5%;
+}
+body{
+    font-family : Roboto;
+    font-weight: 400;
+    font-size : 1.4rem;
+    background-color: var(--bgClr-primary);
+}
+.popup{
+    width : 100vw;
+    height : 100vh;
+    position : fixed;
+    top : 0;
+    left :0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}

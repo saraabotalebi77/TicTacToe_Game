@@ -1,0 +1,19 @@
+.count-down--number{
+    font-size :0;
+    font-weight : 900;
+    color : var(--clr-neutral-100);
+}
+.count-down--number3 {
+    animation: start-countDown 1s ease-in-out 1s;
+}
+.count-down--number2 {
+    animation: start-countDown 1s ease-in-out 2s;
+}
+.count-down--number1 {
+    animation: start-countDown 1s ease-in-out 3s;
+}
+@keyframes start-countDown {
+    100%{
+        font-size :  max(11.5vw,80px);
+    }
+}
